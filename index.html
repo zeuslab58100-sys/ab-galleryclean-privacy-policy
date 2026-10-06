@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="AB GalleryClean Privacy Policy">
+<meta name="theme-color" content="#031B33">
+<title>AB GalleryClean — Privacy Policy</title>
+<style>
+:root {
+  color-scheme: light dark;
+  --bg:#071426;
+  --card:#0d213b;
+  --text:#edf6ff;
+  --muted:#b8cce3;
+  --accent:#32d4ff;
+  --line:#234361;
+}
+* { box-sizing:border-box; }
+body {
+  margin:0;
+  font-family:Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background:linear-gradient(180deg,#031B33 0%,#071426 100%);
+  color:var(--text);
+  line-height:1.65;
+}
+main { max-width:920px; margin:0 auto; padding:48px 20px 80px; }
+.hero {
+  padding:32px;
+  border:1px solid var(--line);
+  border-radius:24px;
+  background:linear-gradient(145deg,rgba(50,212,255,.12),rgba(26,74,160,.12));
+  margin-bottom:28px;
+}
+h1 { margin:0 0 8px; font-size:clamp(2rem,6vw,3.2rem); line-height:1.05; }
+.subtitle { color:var(--muted); margin:0; }
+.tabs { display:flex; gap:10px; margin:22px 0; flex-wrap:wrap; }
+button {
+  border:1px solid var(--line);
+  background:#0d213b;
+  color:var(--text);
+  padding:10px 16px;
+  border-radius:999px;
+  cursor:pointer;
+  font-weight:700;
+}
+button.active { background:var(--accent); color:#031B33; border-color:var(--accent); }
+.card {
+  background:rgba(13,33,59,.92);
+  border:1px solid var(--line);
+  border-radius:24px;
+  padding:28px;
+  box-shadow:0 18px 50px rgba(0,0,0,.18);
+}
+.policy { white-space:pre-wrap; word-wrap:break-word; margin:0; font:inherit; color:var(--text); }
+a { color:var(--accent); }
+footer { margin-top:28px; color:var(--muted); font-size:.92rem; text-align:center; }
+.hidden { display:none; }
+@media (prefers-color-scheme: light) {
+  :root { --bg:#f4f8fc; --card:#fff; --text:#10233d; --muted:#556b83; --line:#d7e4ef; }
+  body { background:#f4f8fc; }
+  .hero { background:linear-gradient(145deg,#e8f9ff,#eef3ff); }
+  button { background:#fff; }
+  .card { background:#fff; }
+}
+</style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <h1>AB GalleryClean</h1>
+    <p class="subtitle">Privacy Policy · Developer: AB Lab AI · Last updated: 6 October 2026</p>
+  </section>
+
+  <div class="tabs">
+    <button id="btn-en" class="active" onclick="showLang('en')">English</button>
+    <button id="btn-it" onclick="showLang('it')">Italiano</button>
+  </div>
+
+  <section class="card">
+    <pre id="policy-en" class="policy">1. Data Controller / Developer
+
+AB GalleryClean is developed and published by AB Lab AI.
+
+Contact email:
+zeuslab58100@gmail.com
+
+Privacy Policy:
+https://zeuslab58100-sys.github.io/ab-galleryclean-privacy/
+
+2. About AB GalleryClean
+
+AB GalleryClean is an Android application designed to help users review and manage photos and videos stored on their device.
+
+Its features may include:
+- detecting duplicate photos;
+- identifying visually similar photos;
+- finding screenshots;
+- identifying potentially blurred photos;
+- finding large videos;
+- finding older downloaded media;
+- previewing media;
+- allowing users to select and delete media files;
+- estimating recoverable storage space.
+
+The analysis of photos and videos is performed locally on the user&#x27;s device.
+
+AB GalleryClean does not upload the user&#x27;s photos or videos to AB Lab AI servers for analysis.
+
+3. Permissions and access to photos and videos
+
+AB GalleryClean may request permission to access photos and videos stored on the Android device.
+
+This access is used only to provide the app&#x27;s core functions, including scanning, categorizing, previewing, comparing and allowing the user to delete selected media.
+
+The app does not automatically delete files without the user&#x27;s action.
+
+On supported Android versions, deletion may require confirmation through Android&#x27;s system media controls.
+
+4. Data processed locally on the device
+
+To provide its features, AB GalleryClean may process locally information such as:
+- media identifiers;
+- file names where available;
+- file size;
+- media type;
+- creation or modification date where available;
+- image thumbnails or image data required for local analysis;
+- cryptographic hashes used to detect exact duplicates;
+- perceptual image hashes used to detect visually similar photos;
+- image sharpness information used to identify potentially blurred photos.
+
+This processing is performed locally on the device.
+
+This media-analysis information is not sent to AB Lab AI servers.
+
+5. Information stored locally
+
+AB GalleryClean may store app preferences locally on the device, including:
+- selected language;
+- analysis thresholds and preferences;
+- Free-plan daily deletion count;
+- Premium entitlement cache;
+- app configuration data;
+- privacy/advertising state managed by Google SDKs where applicable.
+
+Local preferences may be stored using Flutter and Android local storage mechanisms.
+
+6. Free version and advertising
+
+The Free version of AB GalleryClean is supported by advertising.
+
+Free users may see banner ads and interstitial ads while using the app.
+
+AB GalleryClean uses Google Mobile Ads (AdMob), provided by Google.
+
+Depending on the user&#x27;s region, consent choices, device configuration and Google&#x27;s advertising systems, Google and its partners may process information such as:
+- IP address;
+- device information;
+- advertising identifiers;
+- approximate location derived from IP address;
+- app interaction information;
+- ad interaction information;
+- diagnostics;
+- fraud-prevention and security information.
+
+Where required by applicable law, AB GalleryClean uses Google&#x27;s User Messaging Platform (UMP) to request and manage advertising privacy choices.
+
+Depending on applicable law and the user&#x27;s choices, ads may be personalized, non-personalized or limited.
+
+Declining personalized advertising does not necessarily mean that no advertising will be shown in the Free version.
+
+Premium users do not receive advertising from AB GalleryClean.
+
+For information about Google&#x27;s handling of data, users should consult Google&#x27;s privacy policy and advertising documentation.
+
+7. Premium Lifetime
+
+AB GalleryClean may offer a one-time in-app purchase called AB GalleryClean Premium Lifetime.
+
+Premium Lifetime may provide benefits including:
+- unlimited deletions;
+- removal of advertising;
+- continued access to all app features included in the Premium offering.
+
+Purchases are processed through Google Play Billing.
+
+AB Lab AI does not receive or store the user&#x27;s full payment-card details.
+
+Google may process purchase and transaction information according to its own terms and privacy policies.
+
+The app may store a local Premium entitlement state to help recognize Premium access on the device.
+
+Users may also use Google Play purchase restoration where available.
+
+8. No account required
+
+AB GalleryClean does not currently require users to create a separate AB GalleryClean account.
+
+9. Data sharing
+
+AB Lab AI does not sell users&#x27; personal data.
+
+AB Lab AI does not share users&#x27; photos or videos with third parties for its own advertising or profiling purposes.
+
+Third-party services integrated into the app, such as Google Mobile Ads and Google Play Billing, may process data according to their own privacy policies and applicable law.
+
+10. Data retention
+
+AB Lab AI does not retain users&#x27; photos or videos on its servers because the app&#x27;s media analysis is performed locally.
+
+Local app preferences remain on the device until they are changed, cleared by the user, removed by Android, or deleted when the app is uninstalled, subject to Android backup and restore behavior.
+
+Data processed by Google services is retained according to Google&#x27;s own policies.
+
+11. Data deletion
+
+Because AB GalleryClean does not currently require a separate app account and does not upload the user&#x27;s media library to AB Lab AI servers, there is generally no AB GalleryClean server-side media profile to delete.
+
+Users can remove local app data by:
+- clearing the app&#x27;s storage from Android Settings; or
+- uninstalling the app.
+
+Media deleted through AB GalleryClean is handled by Android&#x27;s media-management system and may be subject to the device&#x27;s trash, recycle-bin or recovery behavior.
+
+For privacy-related requests, contact:
+zeuslab58100@gmail.com
+
+12. Children
+
+AB GalleryClean is not specifically directed to children.
+
+The app is intended as a general-purpose media-management utility.
+
+If the product or its target audience changes in the future, this policy may be updated to reflect any additional legal requirements.
+
+13. Security
+
+AB GalleryClean is designed so that media analysis is performed locally on the device.
+
+Reasonable technical measures are used according to the nature of the app.
+
+However, no software, device, electronic storage system or third-party service can be guaranteed to be completely secure.
+
+14. International users
+
+AB GalleryClean may be made available in multiple countries.
+
+Third-party services such as Google Mobile Ads and Google Play may process data in different countries according to their own privacy policies and applicable legal frameworks.
+
+15. Changes to this Privacy Policy
+
+This Privacy Policy may be updated if the app&#x27;s features, third-party services, legal requirements or data-processing practices change.
+
+The &quot;Last updated&quot; date at the top of this page will be changed when a new version is published.
+
+16. Contact
+
+Developer:
+AB Lab AI
+
+Email:
+zeuslab58100@gmail.com</pre>
+    <pre id="policy-it" class="policy hidden">1. Titolare / Sviluppatore
+
+AB GalleryClean è sviluppata e pubblicata da AB Lab AI.
+
+Email di contatto:
+zeuslab58100@gmail.com
+
+Informativa Privacy:
+https://zeuslab58100-sys.github.io/ab-galleryclean-privacy/
+
+2. Informazioni su AB GalleryClean
+
+AB GalleryClean è un&#x27;applicazione Android progettata per aiutare l&#x27;utente a controllare e gestire foto e video presenti sul dispositivo.
+
+Le funzioni possono includere:
+- rilevamento di foto duplicate;
+- individuazione di foto visivamente simili;
+- individuazione degli screenshot;
+- individuazione di foto potenzialmente sfocate;
+- individuazione di video di grandi dimensioni;
+- individuazione di vecchi file multimediali scaricati;
+- anteprima dei contenuti;
+- selezione ed eliminazione dei file da parte dell&#x27;utente;
+- stima dello spazio potenzialmente recuperabile.
+
+L&#x27;analisi di foto e video viene eseguita localmente sul dispositivo dell&#x27;utente.
+
+AB GalleryClean non carica le foto o i video dell&#x27;utente sui server di AB Lab AI per effettuare l&#x27;analisi.
+
+3. Permessi e accesso a foto e video
+
+AB GalleryClean può richiedere il permesso di accedere alle foto e ai video presenti sul dispositivo Android.
+
+Questo accesso viene utilizzato esclusivamente per fornire le funzioni principali dell&#x27;app, tra cui scansione, classificazione, anteprima, confronto e possibilità per l&#x27;utente di eliminare i file selezionati.
+
+L&#x27;app non elimina automaticamente i file senza un&#x27;azione dell&#x27;utente.
+
+Sulle versioni Android supportate, l&#x27;eliminazione può richiedere una conferma tramite i controlli multimediali di sistema.
+
+4. Dati elaborati localmente sul dispositivo
+
+Per fornire le proprie funzioni, AB GalleryClean può elaborare localmente informazioni quali:
+- identificativi dei contenuti multimediali;
+- nomi dei file, quando disponibili;
+- dimensione dei file;
+- tipo di contenuto;
+- data di creazione o modifica, quando disponibile;
+- miniature o dati immagine necessari all&#x27;analisi locale;
+- hash crittografici utilizzati per rilevare duplicati esatti;
+- hash percettivi utilizzati per rilevare foto visivamente simili;
+- informazioni sulla nitidezza utilizzate per individuare foto potenzialmente sfocate.
+
+Questa elaborazione avviene localmente sul dispositivo.
+
+Questi dati di analisi non vengono inviati ai server di AB Lab AI.
+
+5. Informazioni salvate localmente
+
+AB GalleryClean può memorizzare localmente sul dispositivo alcune preferenze, tra cui:
+- lingua selezionata;
+- soglie e preferenze di analisi;
+- conteggio giornaliero delle eliminazioni del piano Free;
+- stato locale dell&#x27;accesso Premium;
+- dati di configurazione dell&#x27;app;
+- stato relativo a privacy/pubblicità gestito dagli SDK Google, quando applicabile.
+
+Le preferenze locali possono essere memorizzate tramite i sistemi di archiviazione locali di Flutter e Android.
+
+6. Versione Free e pubblicità
+
+La versione Free di AB GalleryClean è supportata dalla pubblicità.
+
+Gli utenti Free possono visualizzare banner pubblicitari e annunci interstitial durante l&#x27;utilizzo dell&#x27;app.
+
+AB GalleryClean utilizza Google Mobile Ads (AdMob), servizio fornito da Google.
+
+In base alla regione dell&#x27;utente, alle scelte di consenso, alla configurazione del dispositivo e ai sistemi pubblicitari di Google, Google e i suoi partner possono trattare informazioni quali:
+- indirizzo IP;
+- informazioni sul dispositivo;
+- identificatori pubblicitari;
+- posizione approssimativa ricavata dall&#x27;indirizzo IP;
+- informazioni sull&#x27;interazione con l&#x27;app;
+- informazioni sull&#x27;interazione con gli annunci;
+- dati diagnostici;
+- informazioni relative a sicurezza e prevenzione delle frodi.
+
+Quando richiesto dalla normativa applicabile, AB GalleryClean utilizza Google User Messaging Platform (UMP) per raccogliere e gestire le scelte relative alla privacy pubblicitaria.
+
+In base alla normativa applicabile e alle scelte dell&#x27;utente, gli annunci possono essere personalizzati, non personalizzati o limitati.
+
+Il rifiuto della pubblicità personalizzata non significa necessariamente che nella versione Free non verrà mostrata alcuna pubblicità.
+
+Gli utenti Premium non ricevono pubblicità da AB GalleryClean.
+
+Per maggiori informazioni sul trattamento dei dati da parte di Google, l&#x27;utente deve consultare l&#x27;informativa privacy e la documentazione pubblicitaria di Google.
+
+7. Premium Lifetime
+
+AB GalleryClean può offrire un acquisto in-app una tantum denominato AB GalleryClean Premium Lifetime.
+
+Premium Lifetime può includere vantaggi quali:
+- eliminazioni illimitate;
+- rimozione della pubblicità;
+- accesso continuativo alle funzioni comprese nell&#x27;offerta Premium.
+
+Gli acquisti vengono elaborati tramite Google Play Billing.
+
+AB Lab AI non riceve né memorizza i dati completi della carta di pagamento dell&#x27;utente.
+
+Google può trattare le informazioni relative agli acquisti e alle transazioni secondo i propri termini e le proprie informative privacy.
+
+L&#x27;app può salvare localmente lo stato Premium per riconoscere l&#x27;accesso Premium sul dispositivo.
+
+Quando disponibile, l&#x27;utente può inoltre ripristinare l&#x27;acquisto tramite Google Play.
+
+8. Nessun account obbligatorio
+
+Attualmente AB GalleryClean non richiede la creazione di un account separato AB GalleryClean.
+
+9. Condivisione dei dati
+
+AB Lab AI non vende i dati personali degli utenti.
+
+AB Lab AI non condivide foto o video degli utenti con terze parti per proprie finalità pubblicitarie o di profilazione.
+
+Servizi di terze parti integrati nell&#x27;app, come Google Mobile Ads e Google Play Billing, possono trattare dati secondo le rispettive informative privacy e la normativa applicabile.
+
+10. Conservazione dei dati
+
+AB Lab AI non conserva foto o video degli utenti sui propri server, poiché l&#x27;analisi dei contenuti multimediali viene effettuata localmente.
+
+Le preferenze locali rimangono sul dispositivo finché non vengono modificate, cancellate dall&#x27;utente, rimosse da Android o eliminate con la disinstallazione dell&#x27;app, fatte salve eventuali funzioni di backup e ripristino di Android.
+
+I dati trattati dai servizi Google vengono conservati secondo le politiche di Google.
+
+11. Eliminazione dei dati
+
+Poiché AB GalleryClean non richiede attualmente un account separato e non carica la libreria multimediale dell&#x27;utente sui server di AB Lab AI, normalmente non esiste un profilo multimediale lato server da eliminare.
+
+L&#x27;utente può eliminare i dati locali dell&#x27;app:
+- cancellando i dati dell&#x27;app dalle Impostazioni Android; oppure
+- disinstallando l&#x27;app.
+
+I file multimediali eliminati tramite AB GalleryClean vengono gestiti dal sistema multimediale Android e possono essere soggetti al cestino o alle funzioni di recupero del dispositivo.
+
+Per richieste relative alla privacy:
+zeuslab58100@gmail.com
+
+12. Minori
+
+AB GalleryClean non è specificamente rivolta ai minori.
+
+L&#x27;app è destinata all&#x27;utilizzo generale come strumento di gestione dei contenuti multimediali.
+
+Se in futuro il prodotto o il pubblico di destinazione dovessero cambiare, questa informativa potrà essere aggiornata per riflettere eventuali requisiti legali aggiuntivi.
+
+13. Sicurezza
+
+AB GalleryClean è progettata affinché l&#x27;analisi dei contenuti multimediali avvenga localmente sul dispositivo.
+
+Vengono adottate misure tecniche ragionevoli in relazione alla natura dell&#x27;app.
+
+Tuttavia, nessun software, dispositivo, sistema di archiviazione elettronica o servizio di terze parti può essere garantito come completamente sicuro.
+
+14. Utenti internazionali
+
+AB GalleryClean può essere resa disponibile in più Paesi.
+
+Servizi di terze parti come Google Mobile Ads e Google Play possono trattare dati in Paesi diversi secondo le proprie informative privacy e i quadri normativi applicabili.
+
+15. Modifiche a questa Informativa Privacy
+
+Questa Informativa Privacy può essere aggiornata se cambiano le funzioni dell&#x27;app, i servizi di terze parti, i requisiti normativi o le modalità di trattamento dei dati.
+
+La data &quot;Ultimo aggiornamento&quot; riportata all&#x27;inizio della pagina verrà modificata quando sarà pubblicata una nuova versione.
+
+16. Contatti
+
+Sviluppatore:
+AB Lab AI
+
+Email:
+zeuslab58100@gmail.com</pre>
+  </section>
+
+  <footer>
+    Contact: <a href="mailto:zeuslab58100@gmail.com">zeuslab58100@gmail.com</a>
+  </footer>
+</main>
+
+<script>
+function showLang(lang) {
+  document.getElementById('policy-en').classList.toggle('hidden', lang !== 'en');
+  document.getElementById('policy-it').classList.toggle('hidden', lang !== 'it');
+  document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  document.getElementById('btn-it').classList.toggle('active', lang === 'it');
+  document.documentElement.lang = lang;
+}
+</script>
+</body>
+</html>
